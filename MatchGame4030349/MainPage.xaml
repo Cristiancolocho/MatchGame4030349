@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatchGame4030349.MainPage"
+             Shell.NavBarIsVisible="False"
+             Title="Match Game Indel">
+
+    <!--<Summary>
+        <Createddate>06/06/2024
+            </createddate>
+            <company> Match Game _4030349</company>
+            <lastmodificationdate>09/06/2024</lastmodificationdate>
+            <lastmodificationdescription>
+                Me falto subir a git hub y comentar el codigo
+            </lastmodificationdescription>
+            <lastmodifiera-->
+    
+    <ScrollView>
+        <!--Ajustamos las direcciones-->
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+           <!--Un label y centramos-->
+            <Label
+                Text="Match Game Indel"
+                x:Name="lblPrincipal"
+                FontSize="Large"
+                HorizontalOptions="Center"/>
+
+            <!--Unos grid para las columnas-->
+            <Grid x:Name="Grid1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+        <!--Unos buttons--> 
+                <Button Text="?"
+                        FontSize="36"
+                        Clicked="Button_Clicked"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Column="1"
+                        Clicked="Button_Clicked_1"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Column="2"
+                        Clicked="Button_Clicked_2"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Column="3"
+                        Clicked="Button_Clicked_3"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="1"
+                        Clicked="Button_Clicked_4"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Clicked="Button_Clicked_5"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Clicked="Button_Clicked_6"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        Clicked="Button_Clicked_7"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="2"
+                        Clicked="Button_Clicked_8"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Clicked="Button_Clicked_9"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="2"
+                        Grid.Column="2"
+                        Clicked="Button_Clicked_10"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="2"
+                        Grid.Column="3"
+                        Clicked="Button_Clicked_11"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="3"
+                        Clicked="Button_Clicked_12"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        Clicked="Button_Clicked_13"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="3"
+                        Grid.Column="2"
+                        Clicked="Button_Clicked_14"/>
+
+                <Button Text="?"
+                        FontSize="36"
+                        Grid.Row="3"
+                        Grid.Column="3"
+                        Clicked="Button_Clicked_15"/>
+
+
+            </Grid>
+            
+           
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
