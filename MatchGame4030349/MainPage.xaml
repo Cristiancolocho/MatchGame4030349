@@ -51,86 +51,86 @@
                 <Button Text="?"
                         FontSize="36"
                         Grid.Column="1"
-                        Clicked="Button_Clicked_1"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Column="2"
-                        Clicked="Button_Clicked_2"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Column="3"
-                        Clicked="Button_Clicked_3"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="1"
-                        Clicked="Button_Clicked_4"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="1"
                         Grid.Column="1"
-                        Clicked="Button_Clicked_5"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="1"
                         Grid.Column="2"
-                        Clicked="Button_Clicked_6"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="1"
                         Grid.Column="3"
-                        Clicked="Button_Clicked_7"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="2"
-                        Clicked="Button_Clicked_8"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="2"
                         Grid.Column="1"
-                        Clicked="Button_Clicked_9"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="2"
                         Grid.Column="2"
-                        Clicked="Button_Clicked_10"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="2"
                         Grid.Column="3"
-                        Clicked="Button_Clicked_11"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="3"
-                        Clicked="Button_Clicked_12"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="3"
                         Grid.Column="1"
-                        Clicked="Button_Clicked_13"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="3"
                         Grid.Column="2"
-                        Clicked="Button_Clicked_14"/>
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="?"
                         FontSize="36"
                         Grid.Row="3"
                         Grid.Column="3"
-                        Clicked="Button_Clicked_15"/>
+                        Clicked="Button_Clicked"/>
 
 
             </Grid>

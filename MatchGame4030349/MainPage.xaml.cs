@@ -2,7 +2,6 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
@@ -14,7 +13,7 @@
         private void SetUpGame()
         {
             //Introducimos emogis con una lista
-            List<string> animalEmogi = new List<string>()
+            List<string> animalEmoji = new List<string>()
 
             {
                 "🐶","🐶",
@@ -31,13 +30,13 @@
 
             foreach (Button view in Grid1.Children)
             {
-                int index = random.Next(animalEmogi.Count);
+                int index = random.Next(animalEmoji.Count);
 
-                string nextEmoji = animalEmogi[index];
+                string nextEmoji = animalEmoji[index];
 
                 view.Text = nextEmoji;
 
-                animalEmogi.RemoveAt(index);
+                animalEmoji.RemoveAt(index);
             }
         }
 
